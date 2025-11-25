@@ -9,7 +9,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url('${import.meta.env.BASE_URL}explore_ke.jpg')` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/55 to-black/70" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/35 to-black/50" />
 
       {/* Content */}
       <div className="relative max-w-4xl mx-auto px-4 text-center text-white space-y-5">
