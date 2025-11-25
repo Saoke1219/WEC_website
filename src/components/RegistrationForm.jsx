@@ -26,7 +26,7 @@ export default function RegistrationSection() {
 
           {/* EVENT IMAGE — stored in /public */}
           <img
-            src="/conference.jpg"
+            src={`${import.meta.env.BASE_URL}conference.jpg`}
             alt="Conference registration"
             className="w-full h-64 object-cover rounded-md shadow-md border border-slate-200"
           />

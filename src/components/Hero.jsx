@@ -6,7 +6,8 @@ export default function Hero() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/explore_ke.jpg')" }}
+        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}explore_ke.jpg')` }}
+
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/55 to-black/70" />
 
