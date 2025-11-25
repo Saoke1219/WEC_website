@@ -10,7 +10,7 @@ export default function RegistrationSection() {
           </h2>
 
           <p className="text-sm sm:text-base text-slate-700 mb-4 leading-relaxed">
-            Powering Possibility 2026 offers an engaging, solutions-driven 
+          Powering Futures: Powering Possibility 2026 offers an engaging, solutions-driven 
             environment where participants move beyond dialogue into coordinated action.
           </p>
 

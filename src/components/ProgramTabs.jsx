@@ -10,7 +10,7 @@ export default function ProgramTabs() {
       <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
         <div>
           <h2 className="text-2xl sm:text-3xl font-semibold mb-2 tracking-tight">
-            WORLD ENERGY WEEK PROGRAMME
+            CONFERENCE PROGRAMME
           </h2>
           <p className="text-sm sm:text-base text-slate-100 max-w-8xl leading-relaxed">
             The programme is built for impact. Participants will move beyond discussion to hands-on collaboration, tackling real-world challenges and co-designing practical solutions. Through interactive working groups, immersive sessions, and dynamic exchanges, delegates will shape actionable agendas, unlock new opportunities, and build partnerships that can accelerate the global energy transition. Every session is designed to inspire fresh thinking, foster cross-sector collaboration, and deliver tangible outcomes that matter.
