@@ -30,13 +30,6 @@ export default function Hero() {
           <Countdown />
         </div>
 
-        <p className="mt-4 text-sm sm:text-base text-gray-100 max-w-3xl mx-auto">
-          Africa’s energy transition stands at a decisive inflection point, and so
-          does the global market that surrounds it. As the world moves from
-          net-zero pledges to implementation, Africa is no longer a frontier of
-          potential but a system actor whose choices will shape resilience,
-          competitiveness and energy security around the world.
-        </p>
 
         <div className="mt-6 flex flex-wrap justify-center gap-4">
           <a
