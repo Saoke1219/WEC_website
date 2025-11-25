@@ -12,7 +12,7 @@ const navItems = [
           {/* Logo + title */}
           <a href="#home" className="flex items-center gap-3">
             <img
-              src="/wec_logo.png"
+              src={`${import.meta.env.BASE_URL}wec_logo.png`}
               alt="World Energy Council"
               className="h-10 w-auto"
             />
