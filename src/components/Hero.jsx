@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}explore_ke.jpg')` }}
+        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}lanscape2.jpg')` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/35 to-black/50" />
 
@@ -43,18 +43,26 @@ export default function Hero() {
     <img
       src={`${import.meta.env.BASE_URL}ke_logo.png`}
       alt="WEC Kenya Host Logo"
-      className="h-14 sm:h-16 w-auto object-contain drop-shadow-md"
+      className="
+        h-14 sm:h-16 w-auto object-contain drop-shadow-lg
+        brightness-125 contrast-110 saturate-110
+      "
     />
 
-    {/* South Africa Logo — boosted visibility */}
+    {/* South Africa Logo — extra boost */}
     <img
       src={`${import.meta.env.BASE_URL}sa_logo.png`}
       alt="Energy Council of South Africa Logo"
-      className="h-16 sm:h-[80px] w-auto object-contain drop-shadow-xl scale-110 sm:scale-125"
+      className="
+        h-16 sm:h-[80px] w-auto object-contain drop-shadow-xl
+        brightness-[1.35] contrast-125 saturate-120
+        scale-110 sm:scale-125
+      "
     />
     
   </div>
 </div>
+
 
 
         <div className="mt-6 flex flex-wrap justify-center gap-4">
